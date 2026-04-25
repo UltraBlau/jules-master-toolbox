@@ -14,6 +14,27 @@ Use the following command patterns for all Jules interactions:
 - `jules remote list --session`: List active/stale sessions.
 - `jules remote pull --session <id> --apply`: Fetch + atomic local patch application.
 
+## 🚀 Getting Started
+
+### 1. Download / Install
+To use this toolbox in a new project, you can either clone it or add it as a git submodule:
+
+**Option A: Clone directly into your project**
+```bash
+git clone https://github.com/UltraBlau/jules-master-toolbox.git
+```
+
+**Option B: Add as a Git Submodule (Recommended)**
+```bash
+git submodule add https://github.com/UltraBlau/jules-master-toolbox.git
+```
+
+### 2. Onboard Your Project
+Once downloaded, tell your Gemini agent:
+> "Initialize the `jules-master-toolbox/workflows/project_onboarding.md` workflow. Map this project and create localized prompts in `.jules/`."
+
+---
+
 ## 📂 Workflow Directory
 Follow these step-by-step guides for specific engineering goals:
 0. **Onboarding:** `workflows/project_onboarding.md` (Run this first in a new project!)
